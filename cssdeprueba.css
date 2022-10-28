@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-container{
+    display: grid;
+    grid-template-rows: 0.6fr 5fr 0.6fr;
+    width: 100%;
+    
+    
+}
+/* EDITAMOS EL HEADER */
+.header{
+    background-color: red;
+    
+    
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logopina{
+    width: 4%;
+}
+
+.header__title{
+    font-size: 4rem;
+    color: #F69269;
+}
+
+
+.main{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: green;
+}

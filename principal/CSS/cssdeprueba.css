@@ -321,6 +321,12 @@ transition: opacity .3s, visibility .2s;
 
 /* CONTACTO MAIN */
 
+
+
+.contacto-body{
+    overflow-x: hidden;
+}
+
 label{
     color: white;
 }
@@ -382,6 +388,11 @@ label{
 
 /* GALERIA MAIN */
 
+
+.galeria-body{
+overflow-x: hidden;
+}
+
 .img-galeria{
     gap: 10px;
     margin: 10px 0px;
@@ -389,6 +400,10 @@ label{
 
 
 /* PRODUCTOS MAIN */
+
+.productos-body{
+    overflow-x: hidden;
+}
 
 .h2-productos{
     color: #F69269;
